@@ -26,7 +26,8 @@ def im_reduce(img):
     im_reduced = lowpass[::2, ::2, ...]
     return im_reduced
 
-
+def add(a, b):
+    return a + b
 def im_expand(img, template):
     '''
     Re-expand a reduced image by interpolating according to gaussian kernel
