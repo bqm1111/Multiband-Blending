@@ -13,7 +13,7 @@ import scipy
 import scipy.ndimage as ndimage
 import cv2
 
-
+# Add something weird 
 def im_reduce(img):
     '''
     Apply gaussian filter and drop every other pixel
