@@ -13,6 +13,8 @@ import scipy
 import scipy.ndimage as ndimage
 import cv2
 
+def subtract(a,b):
+    return a - b
 # Add something weird 
 def im_reduce(img):
     '''
