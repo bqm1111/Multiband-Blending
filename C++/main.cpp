@@ -67,7 +67,7 @@ int main()
     cv::imshow("orange", orange);
 //    cv::waitKey(0);
     int num_level = 7;
-    int shift =20;
+    int shift = 0;
     std::vector<cv::Mat> orangePyr;
     std::vector<cv::Mat> applePyr;
     std::vector<cv::Mat> ret;
